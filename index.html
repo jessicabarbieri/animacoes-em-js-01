@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Efeito com JavaScript</title>
     
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <div class="form">     
+            <p>clique e arraste neste fundo</p>
+        </div>
+    </div>
+
+    <!-- conteudo animado -->
+    <canvas></canvas> 
+
+    <script>
+        // este 'ga' é um botão que está linkado a algumas parametrizações e redes sociais, dentro do script
+        //script de efeito: https://github.com/JonyPeixoto/Jony-Peixoto-Danki-Code
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-105392568-1', 'auto'); // chamando o efeito, que está hospedado no local em questão
+        ga('send', 'pageview');
+    </script>
+    <script src="js/dat.gui.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
